@@ -61,7 +61,7 @@ brew install "${formulas[@]}"
 # ==============================================================================
 
 step "Installing core GUI applications..."
-brew install --cask iterm2 visual-studio-code maccy stats jiggler
+brew install --cask iterm2 visual-studio-code maccy stats jiggler lulu
 
 optional_apps=(
     appcleaner

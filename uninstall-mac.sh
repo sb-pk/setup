@@ -94,7 +94,7 @@ fi
 step "Uninstalling GUI applications..."
 
 casks=(
-    iterm2 visual-studio-code maccy stats jiggler
+    iterm2 visual-studio-code maccy stats jiggler lulu
     appcleaner cleanmymac little-snitch folder-preview-pro
     jordanbaird-ice boring-notch microsoft-teams intellij-idea
     postman purevpn whatsapp "4k-video-downloader+"
@@ -132,6 +132,7 @@ app_identifiers=(
     "com.tailscale.*"
     "io.orbstack.*"
     "com.docker.*"
+    "com.objective-see.lulu*"
 )
 
 # Directories where apps leave data (user-level)
